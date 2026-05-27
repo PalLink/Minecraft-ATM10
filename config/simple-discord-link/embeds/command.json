@@ -1,0 +1,9 @@
+{
+  "author": {
+    "name": "%author%",
+    "icon_url": "%avatar%"
+  },
+  "title": "used command:",
+  "description": "```bash\n%message_contents%\n```",
+  "color": "#e08aff"
+}

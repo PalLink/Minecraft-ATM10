@@ -1,0 +1,8 @@
+{
+  "author": {
+    "name": "%player_name% 🔴",
+    "icon_url": "%player_avatar%"
+  },
+  "description": "left the server.",
+  "color": "#b93737"
+}

@@ -1,0 +1,8 @@
+{
+  "color": "#ffffff",
+  "title": "%message_contents%",
+  "author": {
+    "name": "%author%",
+    "icon_url": "%avatar%"
+  }
+}

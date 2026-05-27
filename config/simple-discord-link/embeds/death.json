@@ -1,0 +1,11 @@
+{
+  "author": {
+    "name": "%player_name%",
+    "icon_url": "%player_avatar%"
+  },
+  "description": "%message_contents%",
+  "thumbnail": {
+    "url": "https://github.com/PalLink/Minecraft-ATM10/blob/main/assets/player-death.png?raw=true"
+  },
+  "color": "#5e5e5e"
+}

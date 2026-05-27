@@ -1,0 +1,8 @@
+{
+  "color": "#000000",
+  "description": "%message_contents%",
+  "footer": {
+    "text": "%author%",
+    "icon_url": "%avatar%"
+  }
+}

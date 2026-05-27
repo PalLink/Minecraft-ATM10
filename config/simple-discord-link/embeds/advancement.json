@@ -1,0 +1,11 @@
+{
+  "color": "#ffd500",
+  "author": {
+    "name": "%player_name%",
+    "icon_url": "%player_avatar%"
+  },
+  "description": "Advancement unlocked:\n%message_contents%",
+  "thumbnail": {
+    "url": "https://github.com/PalLink/Minecraft-ATM10/blob/main/assets/advancement-unlocked.png?raw=true"
+  }
+}
