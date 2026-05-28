@@ -1,18 +1,89 @@
 {
-	member: {
-		name: "Member"
-		power: 1
+	newcomer: {
+		name: "Newcomer"
+		power: 10
 		condition: "always_active"
+		ftbranks.name_format: "&8[&7Newcomer&8] &f{name}"
+		ftbchunks.max_claimed: 50
+		ftbchunks.max_force_loaded: 4
 	}
-	vip: {
-		name: "VIP"
+	regular: {
+		name: "Regular"
+		power: 20
+		condition: {
+			type: "playtime"
+			time: 1
+			time_unit: "days"
+		}
+		ftbranks.name_format: "&8[&aRegular&8] &f{name}"
+		ftbchunks.max_claimed: 100
+		ftbchunks.max_force_loaded: 8
+	}
+	active: {
+		name: "Active"
+		power: 30
+		condition: {
+			type: "playtime"
+			time: 3
+			time_unit: "days"
+		}
+		ftbranks.name_format: "&8[&2Active&8] &f{name}"
+		ftbchunks.max_claimed: 200
+		ftbchunks.max_force_loaded: 12
+	}
+	activeplus: {
+		name: "Active+"
+		power: 40
+		condition: {
+			type: "playtime"
+			time: 1
+			time_unit: "weeks"
+		}
+		ftbranks.name_format: "&8[&2Active&c+&8] &f{name}"
+		ftbchunks.max_claimed: 300
+		ftbchunks.max_force_loaded: 16
+	}
+	dedicated: {
+		name: "Dedicated"
 		power: 50
-		ftbranks.name_format: "&bVIP {name}"
+		condition: {
+			type: "playtime"
+			time: 2
+			time_unit: "weeks"
+		}
+		ftbranks.name_format: "&8[&6Dedicated&8] &f{name}"
+		ftbchunks.max_claimed: 400
+		ftbchunks.max_force_loaded: 24
+	}
+	elite: {
+		name: "Elite"
+		power: 60
+		condition: {
+			type: "playtime"
+			time: 3
+			time_unit: "weeks"
+		}
+		ftbranks.name_format: "&8[&cElite&8] &f{name}"
+		ftbchunks.max_claimed: 600
+		ftbchunks.max_force_loaded: 32
+	}
+	veteran: {
+		name: "Veteran"
+		power: 70
+		condition: {
+			type: "playtime"
+			time: 4
+			time_unit: "weeks"
+		}
+		ftbranks.name_format: "&8[&bVeteran&8] &f{name}"
+		ftbchunks.max_claimed: 800
+		ftbchunks.max_force_loaded: 48
 	}
 	admin: {
 		name: "Admin"
 		power: 1000
 		condition: "op"
-		ftbranks.name_format: "&2{name}"
+		command.ftbranks: true
+		ftbranks.name_format: "&8[&5Admin&8] &2{name}"
 	}
 }
