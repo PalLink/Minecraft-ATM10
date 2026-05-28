@@ -1,0 +1,22 @@
+{
+  "style_name": "Default",
+  "update_tick_time": 2,
+  "list_header": [
+    "",
+    " ⛏ <gr #4adeff #3d8eff><bold>PalLink.net</bold></gr> ⛏ ",
+    "",
+    "<color:#555555><strikethrough>                        </strikethrough>[ </color><color:#FF5555>%server:online%<color:#6666676>/</color>%server:max_players%</color><color:#555555> ]<strikethrough>                        </strikethrough></color>"
+  ],
+  "list_footer": [
+    "",
+    "<color:#555555><strikethrough>                   </strikethrough>[ </color><color:#FF5555>Server Stats</color><color:#555555> ]<strikethrough>                  </strikethrough></color>",
+    "<gray>TPS: %server:tps_colored%   <gray>MSPT: %server:mspt_colored%   <gray>RAM: <green>%server:used_ram gb%/%server:max_ram gb%<white>gb",
+    "<gray>Server uptime: <green>%server:uptime%                    ",
+    "",
+    "<color:#555555><strikethrough>                    </strikethrough>[ </color><color:#FF5555>Your Stats</color><color:#555555> ]<strikethrough>                    </strikethrough></color>",
+    "<gray>Mob kills: <green>%player:statistic minecraft:mob_kills%  <gray>Deaths: </gray><red>%player:statistic minecraft:deaths%</red>  <gray>Health: <green>%player:health%/%player:max_health%",
+    "<gray>Playtime: <green>%player:playtime d'd' HH:mm:ss%",
+    ""
+  ],
+  "hidden_in_commands": false
+}
