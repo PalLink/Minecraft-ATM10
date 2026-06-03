@@ -1,67 +1,163 @@
 [
-	{
-        "mob": "minecraft:zombie",
-        "mincount": 15,
-        "result": "deny"
-      },
-      {
-        "mob": "minecraft:bat",
-        "mincount": 5,
-        "result": "deny"
-      },
-      {
-        "mob": "minecraft:skeleton",
-        "mincount": 15,
-        "result": "deny"
-      },
-		{
-        "mob": "minecraft:creeper",
-        "mincount": 15,
-        "result": "deny"
-      },
-		{
-        "mob": "minecraft:spider",
-        "mincount": 15,
-        "result": "deny"
-      },
-		{
-        "mob": "minecraft:enderman",
-        "mincount": 15,
-        "result": "deny"
-      },
-		{
-        "mob": "irons_spellbooks:necromancer",
-        "mincount": 15,
-        "result": "deny"
-      },
-		{
-        "mob": "minecraft:cave_spider",
-        "mincount": 15,
-        "result": "deny"
-      },
-		{
-        "mob": "creeperoverhaul:cave_creeper",
-        "mincount": 15,
-        "result": "deny"
-	  },
-		{
-        "mob": "minecraft:drowned",
-        "mincount": 15,
-        "result": "deny"
-      },
-		{
-        "mob": "creeperoverhaul:dripstone_creeper",
-        "mincount": 15,
-        "result": "deny"
-      },
-		{
-        "mob": "endermanoverhaul:cave_enderman",
-        "mincount": 15,
-        "result": "deny"
-      },
-		{
-        "mob": "endermanoverhaul:badlands_enderman",
-        "mincount": 15,
-        "result": "deny"
-      }				  
+  {
+    "when": "onjoin",
+    "mod": "creeperoverhaul",
+    "mincount": {
+      "amount": 6,
+      "mod": "creeperoverhaul",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mob": [
+      "minecraft:vindicator",
+      "minecraft:evoker"
+    ],
+    "mincount": {
+      "amount": 6,
+      "mob": [
+        "minecraft:vindicator",
+        "minecraft:evoker"
+      ],
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mob": "minecraft:wither_skeleton",
+    "mincount": {
+      "amount": 4,
+      "mob": "minecraft:wither_skeleton",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mob": [
+      "minecraft:enderman",
+      "endermanoverhaul:cave_enderman",
+      "endermanoverhaul:badlands_enderman",
+      "endermanoverhaul:end_enderman"
+    ],
+    "mincount": {
+      "amount": 15,
+      "mob": [
+        "minecraft:enderman",
+        "endermanoverhaul:cave_enderman",
+        "endermanoverhaul:badlands_enderman",
+        "endermanoverhaul:end_enderman"
+      ],
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mob": "minecraft:zombie_villager",
+    "mincount": {
+      "amount": 2,
+      "mob": "minecraft:zombie_villager",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mob": "minecraft:glow_squid",
+    "mincount": {
+      "amount": 3,
+      "mob": "minecraft:glow_squid",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mob": "iceandfire:stymphalian_bird",
+    "mincount": {
+      "amount": 2,
+      "mob": "iceandfire:stymphalian_bird",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "mob": "irons_spellbooks:necromancer",
+    "mincount": {
+      "amount": 2,
+      "mob": "irons_spellbooks:necromancer",
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "mincount": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:bat",
+    "mincount": 5,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:skeleton",
+    "mincount": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:creeper",
+    "mincount": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:spider",
+    "mincount": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:enderman",
+    "mincount": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "irons_spellbooks:necromancer",
+    "mincount": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:cave_spider",
+    "mincount": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "creeperoverhaul:cave_creeper",
+    "mincount": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:drowned",
+    "mincount": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "creeperoverhaul:dripstone_creeper",
+    "mincount": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "endermanoverhaul:cave_enderman",
+    "mincount": 15,
+    "result": "deny"
+  },
+  {
+    "mob": "endermanoverhaul:badlands_enderman",
+    "mincount": 15,
+    "result": "deny"
+  }
 ]
