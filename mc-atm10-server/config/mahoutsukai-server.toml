@@ -222,6 +222,10 @@
 		# Range: 0 ~ 100000000
 		PROJECTILE_DISPLACEMENT_MANA_COST = 50
 
+[projection]
+	#Projectile shooters which can turn into Nobu
+	NOBU_ALLOWED_BOWS = ["minecraft:bow"]
+
 	[projection.clarent]
 		#Clarent Blacklist Toggle
 		CLARENT_BLACKLIST_TOGGLE = true
@@ -743,8 +747,6 @@
 		# Default: 600
 		# Range: 0 ~ 10000000
 		NOBU_AUTONOMOUS_LIFE_TICKS = 600
-		#Projectile shooters which can turn into Nobu
-		NOBU_ALLOWED_BOWS = ["minecraft:bow"]
 
 	[exchange.damage]
 		#This is the cost of using the scroll
@@ -987,10 +989,6 @@
 		SPATIAL_DISORIENTATION_MANA_COST_AOE = 20
 		#Spatial Disorientation Air Resistance
 		SPATIAL_DISORIENTATION_AIR_RESISTANCE = true
-		#Spatial Disorientation No Air Resistance Time Limit
-		# Default: 60
-		# Range: 0 ~ 10000000
-		SPATIAL_NO_AIR_RESISTANCE_TIME_LIMIT = 60
 
 	[mystic."borrowed authority"]
 		#This is the slowdown factor when a punched thing hits a wall. Lower is slower
@@ -1512,82 +1510,6 @@
 		# Range: 0 ~ 10000000
 		SELECTIVE_DISPLACEMENT_MANA_COST = 900
 
-	[secret.william]
-		#William Dictionaries
-		WILLIAM_DICTIONARIES = ["English"]
-		#William Character Score Factor
-		# Default: 0.01
-		# Range: 0.0 ~ 10000.0
-		CHARACTER_SCORE_FACTOR = 0.01
-		#William Word Score Factor
-		# Default: 2.0E-5
-		# Range: 0.0 ~ 10000.0
-		WORD_SCORE_FACTOR = 2.0E-5
-		#William Space Score Factor
-		# Default: 0.001
-		# Range: 0.0 ~ 10000.0
-		SPACE_SCORE_FACTOR = 0.001
-		#William Punctuation Score Factor
-		# Default: 0.01
-		# Range: 0.0 ~ 10000.0
-		PUNCTUATION_SCORE_FACTOR = 0.01
-		#William Plagiarism New Word Weight
-		# Default: 0.5
-		# Range: 0.0 ~ 10000.0
-		PLAGIARISM_NEW_WORD_WEIGHT = 0.5
-		#William Plagiarism Similar Word Count Weight
-		# Default: 0.5
-		# Range: 0.0 ~ 10000.0
-		PLAGIARISM_SIMILAR_WORD_COUNT_WEIGHT = 0.5
-		#William Acceptable Plagiarism Threshold
-		# Default: 0.4
-		# Range: 0.0 ~ 10000.0
-		ACCEPTABLE_PLAGIARISM = 0.4
-		#William Personal Mana Factor
-		# Default: 0.01
-		# Range: 0.0 ~ 10000.0
-		WILLIAM_PERSONAL_MANA_FACTOR = 0.01
-		#William Nearby Mana Factor
-		# Default: 0.01
-		# Range: 0.0 ~ 10000.0
-		WILLIAM_NEARBY_MANA_FACTOR = 0.01
-		#William Max Pages
-		# Default: 100
-		# Range: 0 ~ 10000
-		WILLIAM_MAX_PAGES = 100
-		#William Real Word Points
-		# Default: 4
-		# Range: 0 ~ 10000
-		REAL_WORD_POINTS = 4
-		#William Space Ratio Points
-		# Default: 1000
-		# Range: 0 ~ 10000
-		SPACE_RATIO_POINTS = 1000
-		#William Punctuation Ratio Points
-		# Default: 400
-		# Range: 0 ~ 10000
-		PUNCTUATION_RATIO_POINTS = 400
-		#William Character Ratio Points
-		# Default: 10
-		# Range: 0 ~ 10000
-		CHARACTER_RATIO_POINTS = 10
-		#William Plethora Frequency in Ticks
-		# Default: 100
-		# Range: 0 ~ 10000
-		WILLIAM_PLETHORA_FREQUENCY = 100
-		#William Nearby Mana Range
-		# Default: 30
-		# Range: 0 ~ 10000
-		WILLIAM_NEARBY_MANA_RANGE = 30
-		#William Theater Range
-		# Default: 40
-		# Range: 0 ~ 10000
-		WILLIAM_THEATER_RANGE = 40
-		#William Creation Cost
-		# Default: 500.0
-		# Range: 0.0 ~ 1000000.0
-		WILLIAM_CREATION_COST = 500.0
-
 [kodoku]
 	#Base chance of setting target on fire with kodoku value 1
 	# Default: 0.1
@@ -1741,10 +1663,6 @@
 	PROJECTOR_CONTINUES_ROTATE_WHEN_OFF = false
 	#A list of URLs to pull Magic Runes textures from
 	MAGIC_RUNES = []
-	#Projector Size Cap
-	# Default: 100.0
-	# Range: -1.0E7 ~ 1.0E7
-	PROJECTOR_SIZE_CAP = 100.0
 
 ["mystic code"]
 	#How much durability the Mystic Code - First Sorcery item has
@@ -1819,7 +1737,3 @@
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
 	SMITE_VOLUME = 1.0
-
-[integration]
-	#Whether Apotheosis gems are explicitly considered in Caliburn creation
-	POWER_CONSOLIDATION_UNSOCKETS_APOTH_GEMS = true
