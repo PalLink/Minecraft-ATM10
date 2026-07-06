@@ -79,11 +79,4 @@
 		ftbchunks.max_claimed: 800
 		ftbchunks.max_force_loaded: 48
 	}
-	admin: {
-		name: "Admin"
-		power: 1000
-		condition: "op"
-		command.ftbranks: true
-		ftbranks.name_format: "&8[&5Admin&8] &2{name}"
-	}
 }
